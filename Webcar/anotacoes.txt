@@ -9,3 +9,5 @@ npx tailwindcss init -p
 npm install localforage match-sorter sort-by
 
 npm install react-router-dom
+
+npm install react-icons
