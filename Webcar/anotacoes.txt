@@ -11,3 +11,11 @@ npm install localforage match-sorter sort-by
 npm install react-router-dom
 
 npm install react-icons
+
+npm install react-hook-form
+
+npm install @hookform/resolvers
+
+npm install zod
+
+
