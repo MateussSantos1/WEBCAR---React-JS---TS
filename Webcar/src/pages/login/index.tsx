@@ -65,8 +65,14 @@ export function Login() {
 
       </form>
 
+      <Link to="/register">
+      <p>Ainda não possui uma conta? Cadastrar</p>
+      </Link>
+
+
       </div>
     </Container>
+    
   )
 
 }
