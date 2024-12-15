@@ -5,7 +5,8 @@ import { Input } from '../../components/inputs'
 import { useForm } from 'react-hook-form'
 import { z} from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
-
+import { auth } from '../../services/firebaseConexao'
+import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth/web-extension'
 const schema = z.object(
   {
     name: z.string().nonempty("O campo nome é obrigatório!"),
